@@ -48,6 +48,10 @@ shards:
     github: jeromegn/kilt
     version: 0.4.0
 
+  mocks:
+    github: waterlink/mocks.cr
+    version: 0.9.6
+
   mysql:
     github: crystal-lang/crystal-mysql
     version: 0.5.1
@@ -55,4 +59,12 @@ shards:
   radix:
     github: luislavena/radix
     version: 0.3.9
+
+  singleton:
+    github: waterlink/singleton.cr
+    version: 1.0.0
+
+  webmock:
+    github: manastech/webmock.cr
+    version: 0.10.0
 

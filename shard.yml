@@ -4,7 +4,8 @@ version: 0.1.0
 targets:
   dance:
     main: src/dance.cr
-
+  mock:
+    github: porras/mock
 crystal: 0.27.0
 
 license: MIT
@@ -20,3 +21,7 @@ dependencies:
     github: Crecto/crecto-admin
   ameba:
     github: veelenga/ameba
+  webmock:
+    github: manastech/webmock.cr
+  mocks:
+    github: waterlink/mocks.cr
