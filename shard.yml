@@ -1,0 +1,22 @@
+name: dance
+version: 0.1.0
+
+targets:
+  dance:
+    main: src/dance.cr
+
+crystal: 0.27.0
+
+license: MIT
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+  mysql:
+    github: crystal-lang/crystal-mysql
+  crecto:
+    github: fridgerator/crecto
+  crecto-admin:
+    github: Crecto/crecto-admin
+  ameba:
+    github: veelenga/ameba
